@@ -1,27 +1,40 @@
-# 🤖 Robot Path Planning Simulator
+# Robot Path Planning Simulator
 
-Interactive robot navigation simulator using **A\*** and **Dijkstra algorithm** with GUI built in PySide6.
+Interactive GUI-based simulator for robot navigation using A* and Dijkstra algorithms.
 
----
+## Features
+- Grid-based maze editor (click & drag walls)
+- Set Start & Goal positions
+- A* and Dijkstra algorithm comparison
+- Real-time robot animation
+- Performance metrics:
+  - Nodes explored
+  - Path length
+  - Runtime
 
-## 🚀 Features
+## Algorithms
+- A* (heuristic-based, faster)
+- Dijkstra (uniform cost, exhaustive search)
 
-- 🧠 A* vs Dijkstra algorithm toggle
-- 🎯 Diagonal movement (8-directional)
-- 🗺️ Interactive grid (draw obstacles)
-- 🎮 Set start & goal positions
-- 🤖 Smooth robot animation
-- 📊 Visualization of explored nodes and optimal path
+## How to Use
+1. Draw walls by clicking/dragging
+2. Set start and goal
+3. Click "Run"
+4. Toggle between A* and Dijkstra
 
----
+## Tech Stack
+- Python
+- PySide6 (Qt GUI)
+- NumPy
 
-## 🎥 Demo
+## Demo
+![Demo](assets/demo.png)
 
-![Demo](assets/demo.gif)
-
----
-
-## 🛠️ Installation
-
+## 📦 Installation
 ```bash
 pip install -r requirements.txt
+python main.py
+```
+
+## 📌 Author
+Nabilah Qanitah
